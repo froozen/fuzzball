@@ -7,7 +7,7 @@ The Fuzzball.Algorithm module implements the actual fuzzy matching algorithm.
 
 module Fuzzball.Algorithm
     ( fuzzyMatch
-    , MatchRating(rating, indexes)
+    , MatchRating(..)
     ) where
 
 -- | The rating of the quality of a fuzzy match
